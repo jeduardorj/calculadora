@@ -19,20 +19,35 @@ body{
     font-size: 1.3em;
     line-height: 1.5em;
     
+    
 }
+
 
 .container{
     max-width: 640px;
     margin: 50px auto;
-    background-color: #fff;
+    background-color: #ffffff9e;
     padding: 20px;
     border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
 }
-form input ,form label,form button{
-    display: block;
-    width: 100%;
-    margin-bottom: 10px;
+
+.titulo{
+    max-width: 640px;
+    height: 3em;
+    margin: 25px auto;
+    background-color: #ffffff9e;
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
 }
+
 
 form input{
     font-size: 24px;
@@ -66,12 +81,16 @@ form button:active{
 
 .calculadora{
     width: 400px;
+    
+     
 }
+
 
 .display{
     font-size: 2em;
     width: 100%;
     text-align: right;
+    
 }
 
 .btn{
@@ -81,9 +100,17 @@ form button:active{
     border: none;
     background: #dfdfdf;
     cursor: pointer;
+    
 }
 
 .btn:hover{
     background: #726868;
+}
+
+.bg{
+   background-image: url(../../img/numeros.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
 }
 
